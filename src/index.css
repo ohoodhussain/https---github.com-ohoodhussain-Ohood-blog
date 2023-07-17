@@ -1,13 +1,67 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+}
+.content{
+  display: flex;
+  justify-content: space-between;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  gap: 14rem;
+}
+.navBar{
+  background-color: black;
+  color: white;
+  width: 460px;
+  height: 100vh;
+  text-align: center;
+}
+.navBar h1{
+  font-family: 'VT323', monospace;
+  font-size: 64px;
+  font-weight: 400;
+  margin-bottom: 100px;
+}
+.navBar a{
+  display: block;
+  text-decoration: none;
+  color: white;
+   padding: 40px 60px;
+  font-size: 40px;
+  font-family: 'VT323', monospace;
+  cursor: pointer;
+
+}
+.navBar a:hover{
+  background-color: white;
+  width: 200px;
+  height: 71px;
+  color: black;
+  margin: auto;
+}
+.create-blog{
+  width: 335px;
+  height: 50px;
+  position: absolute;
+  right: 2.5em; ;
+  top: 1.8rem;
+  background-color: transparent;
+  cursor: pointer;
+}
+.create-blog:hover{
+  color: lightslategray;
+}
+input{
+  position: absolute;
+  top: 1.8rem;
+  right: 37rem;
+  width:300px ;
+  height: 50px;
+  padding: 8px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
