@@ -6,8 +6,8 @@ const Blogs = () => {
     const [blogs, setBlogs] = useState([
         //each opject represnt a blog with uniq id
         {title:"My new blogs website", body:"lorem ipsum....", author: "ohood", date: "06 jun 2023", id:1},
-        {title:"My new blogs website", body:"lorem ipsum....", author: "ohood", date: "06 jun 2023", id:1},
-        {title:"My new blogs website", body:"lorem ipsum....", author: "ohood", date: "06 jun 2023", id:1}
+        {title:"My new blogs website", body:"lorem ipsum....", author: "ohood", date: "06 jun 2023", id:2},
+        {title:"My new blogs website", body:"lorem ipsum....", author: "ohood", date: "06 jun 2023", id:3}
     ]);
     return ( 
         <div className="blos">

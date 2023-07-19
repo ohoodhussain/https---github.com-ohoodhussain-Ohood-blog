@@ -6,10 +6,11 @@ function App() {
     <div className="App">
       <div className="content">
         <NavBar/>
-        <Header/>
-        <div className="blog-contanier">
-         <Blogs/>
+        <div className='header-blog'>
+          <Header/>
+          <Blogs/>
         </div>
+        
       </div>
       
         
